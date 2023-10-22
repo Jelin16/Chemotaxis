@@ -5,7 +5,7 @@ PFont font;
 boolean gameOver = false;
 
 void setup() {
-  size(400, 400);
+  size(600, 600);
   colony = new Bacteria[100];
   rectColor = color(255);
   font = createFont("Arial", 32);
@@ -48,7 +48,7 @@ class Bacteria {
   int myX, myY;
 
   Bacteria() {
-    myX = myY = 200;
+    myX = myY = 300;
   }
 
   void move() {
